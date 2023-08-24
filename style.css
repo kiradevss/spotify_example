@@ -1,0 +1,89 @@
+*
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+}
+.logopic {
+    margin-left: 10%;
+    border-radius: 50%;
+    width: 35%;
+    margin-top: 5%;
+  }
+
+.welcome{
+  display: flex;
+  justify-content: right;
+  margin-right: 10%;
+  margin-top: -35%;
+  min-height: 100vh;
+}
+.welcomepage{
+  width: 350px;
+  height: 450px;
+  background: white;
+  border-color: black;
+  border: 2px solid;
+  border-radius: 10px;
+  color: black;
+}
+.welcomepage h1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 30px;
+  text-align: center;
+}
+.welcomepage .input-box{
+  position: relative;
+  width: 91%;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+ background: lightgray;
+ border: none;
+ outline: none;
+ border: 2px solid rgba(255, 255, 255, .2);
+ border-radius: 10px;
+ font-size: 15px;
+ padding-left: 10px;
+ 
+}
+.input-box input::placeholder{
+  color: gray;
+  padding-left: 5px;
+  font-style: bold;
+}
+#btnlogin{
+  margin-left: 37%;
+  background: darkgreen;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+#btnsignup{
+  margin-left: 37%;
+  background: gray;
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
